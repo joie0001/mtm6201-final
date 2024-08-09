@@ -1,0 +1,53 @@
+ 
+ .navbar {
+    background-color: darkblue; /* Dark background */
+    padding: 15px; /* Add padding */
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    color: black !important; /* dark text color */
+    font-size: 1.1rem;
+    padding: 8px 16px; /* Add padding */
+}
+
+.navbar-nav .nav-link:hover {
+    color: darkmagenta !important; /* Change color on hover */
+    background-color: transparent; /* No background on hover */
+}
+
+.navbar-nav .nav-link.active {
+    color: black !important; /* Active link color */
+}
+
+.navbar-toggler-icon {
+    background-color: brown; /* Toggler icon color */
+}
+.nav-link:hover{
+    background-color: grey;
+}
+
+
+.icon-link{
+    background-color: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+.icon-link:hover{
+    scale: 1.05em;
+    color: white;
+}
+.icon-link:active{
+    scale: 0.95em;
+}
