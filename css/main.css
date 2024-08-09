@@ -1,5 +1,6 @@
- 
- .navbar {
+
+
+.navbar{
     background-color: darkblue; /* Dark background */
     padding: 15px; /* Add padding */
 }
@@ -25,7 +26,7 @@
 }
 
 .navbar-toggler-icon {
-    background-color: brown; /* Toggler icon color */
+    background-color:white; /* Toggler icon color */
 }
 .nav-link:hover{
     background-color: grey;
@@ -51,3 +52,22 @@
 .icon-link:active{
     scale: 0.95em;
 }
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
