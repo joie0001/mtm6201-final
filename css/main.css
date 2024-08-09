@@ -43,14 +43,14 @@
     font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
-    transition: scale 0.2 ease;
+    transition:  transform 0.2s ease;;
 }
 .icon-link:hover{
-    scale: 1.05em;
+    transform: scale(1.05);
     color: white;
 }
 .icon-link:active{
-    scale: 0.95em;
+    transform: scale(0.95)
 }
 @media (min-width: 768px) {
     h1 {
